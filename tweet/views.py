@@ -9,6 +9,7 @@ from django.contrib.auth.models import User
 # views.py
 
 def index(request): 
+    
     # data = Tweet.objects.all()
     return render(request,'index.html')
 
